@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+     align-content: center;
+      background-image: url(Images/basketball.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+embed,
+img,
+object,
+p, h1, h4{
+    max-width: 100%;
+    font-family: cursive;
+    color: black;   
+}
+
+h3{
+   max-width: 100%;
+    font-family: impact, fantasy;
+}
+
+h1,h3,h2 {
+    color: orangered;
+    
+
+}
+
+h2{
+    font-size: 300%;
+    font-family: impact;
+
+
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto } /*centers the images:)*/
+nav a {
+    text-decoration: none;
+    padding: 1.5em;
+    min-width: 48px;
+    min-height: 48px;
+    color: #616161;
+    /*Tap targets should be bigger than the average figure*/
+}
+@media screen and (min-width: 675px) {
+    body {
+        overflow-x: hidden;
+    }
+    .row {
+        max-width: 100%;
+    }
+    .container {
+        max-width: 100%;
+        /*prevents screen from overflowing*/
+        
+        overflow-x: hidden;
+        padding: 0;
+        margin: auto;
+    }
